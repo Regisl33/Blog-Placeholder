@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "font1";
+  src: url(./Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "font2";
+  src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+}
+$font1: "font1", sans-serif;
+$font2: "font2", sans-serif;
+$color1: rgb(9, 9, 9);
+$color2: rgb(242, 242, 242);
+
+@mixin justify($content){
+  display: flex;
+  justify-content: $content;
+  align-items: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font1;
+}
+
+body{
+  min-height: 100vh;
+  text-align: center;
+}

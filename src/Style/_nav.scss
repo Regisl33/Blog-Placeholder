@@ -1,0 +1,16 @@
+nav{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+
+  ul{
+    @include justify(space-around);
+
+    .link,
+    .link:visited{
+      text-decoration: none;
+      color: $color1;
+      list-style: none;
+    }
+  }
+}

@@ -5,13 +5,13 @@ const Navigation = () => {
   return (
     <nav>
       <ul>
-        <NavLink to="./">
+        <NavLink className="link" to="./">
           <li>Home</li>
         </NavLink>
-        <NavLink to="./feed">
+        <NavLink className="link" to="./feed">
           <li>Feed</li>
         </NavLink>
-        <NavLink to="./post">
+        <NavLink className="link" to="./post">
           <li>Add Post</li>
         </NavLink>
       </ul>
